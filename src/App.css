@@ -91,12 +91,12 @@ main {
 /* Styling for mobile devices */
 @media (max-width: 500px) {
   .meme--text {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1;
   }
 
   .header {
-    padding: 0 5px;
+    padding: 0 10px;
   }
 
   .header > h2 {
@@ -111,6 +111,10 @@ main {
 
   .form {
     grid-template: 40px 40px/ 1fr;
+  }
+
+  .top {
+    top: 33%;
   }
 
   .bottom {
